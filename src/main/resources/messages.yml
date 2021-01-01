@@ -1,0 +1,12 @@
+prefix: "§8» §cAdvertisements §8| §7"
+
+not-enough-money: "§cYou don't have enough money. The cost of an advertisement currently is §6$[0]§c."
+no-permission: "§cNo permission."
+too-short: "§cPlease provide an advertisement text!"
+cooldown: "§cPlease wait [0] before making a new advertisement."
+
+days: "Days"
+day: "Day"
+minutes: "Minutes"
+minute: "Minute"
+seconds: "A few Seconds"

@@ -1,0 +1,27 @@
+# Here you can define which method you want to use.
+UseMoney: true
+UsePermission: false
+
+# How much does it cost to make an ad
+PricePerAd: 500 # This only is active when "UseMoney" is true.
+
+# Cooldown for advertising (in seconds)
+# 600 = 10 minutes; 300 = 5 minutes; ...;
+# If you don't want a cooldown, set it to -1 or 0
+Cooldown: 600
+
+Advertisement:
+  - "§c--- §8[ §cADVERTISEMENT §8] §c---"
+  - " "
+  - "§a%message%"
+  - " "
+  - "§c-------------------------"
+
+Commands:
+  Advertise:
+    Name: "advertise"
+    Description: "Make an advertisement."
+    Usage: "/advertise <text>"
+    Parameters: "text" # Do not add new parameters or remove them!
+    Permission: "llamaadvertisements.advertise" # This is only active when "UsePermission" is true.
+    Aliases: ["ad", "advertisement"]

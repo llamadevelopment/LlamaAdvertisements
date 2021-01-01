@@ -1,0 +1,5 @@
+name: LlamaAdvertisements
+api: 1.0.0
+main: net.lldv.llamaadvertisements.LlamaAdvertisements
+author: Proxma
+version: 1.0.0
